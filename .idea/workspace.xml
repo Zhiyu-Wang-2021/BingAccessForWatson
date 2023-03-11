@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b422c8d-f3af-466f-bdfa-c1af6b67c60b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BingAccessForWatson.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="5b422c8d-f3af-466f-bdfa-c1af6b67c60b" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/bingAccessWebHook/function.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bingAccessWebHook/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delWorkspace4WAbyID/function.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/getIAMBearerToken/function.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/getIAMBearerToken/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWorkspace4WA/function.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWorkspace4WA/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sendMsgToWtsnAssistant/function.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sendMsgToWtsnAssistant/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/useQnA2ImproveAnswer/function.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/useQnA2ImproveAnswer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspaceMgmt4WtsnAssistant/function.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspaceMgmt4WtsnAssistant/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/delWorkspace4WAbyID/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -38,19 +47,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/dricpro/IdeaProjects/BingAccessForWatson",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,8 +75,20 @@
       <option name="presentableId" value="Default" />
       <updated>1676808410964</updated>
       <workItem from="1676808411798" duration="1064000" />
-      <workItem from="1676810701705" duration="3904000" />
+      <workItem from="1676810701705" duration="3996000" />
+      <workItem from="1676858619983" duration="3851000" />
+      <workItem from="1676930304050" duration="597000" />
+      <workItem from="1677159690595" duration="597000" />
+      <workItem from="1678552306222" duration="611000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1676857422177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676857422177</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,5 +104,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
